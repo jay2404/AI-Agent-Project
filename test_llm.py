@@ -13,6 +13,6 @@ api_key=os.getenv("GROQ_API_KEY")
 
 # Ask it a question
 response = llm.invoke("What is a vector database? Explain in 2 lines.")
-response1= llm.invoke("what happen in Bricks meeting in India 2026 pls explain in 2 lines")
-print(response.content)
+response1= llm.invoke("How to teach my friend English vocabulary?My friend is a 26 year old dumbfuck.Explain in 5 lines.")
+# print(response.content)
 print(response1.content)
