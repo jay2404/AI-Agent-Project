@@ -1,0 +1,14 @@
+SQL Window Functions Guide
+
+ROW_NUMBER() assigns a unique number to each row within a partition.
+Example: ROW_NUMBER() OVER (PARTITION BY dept ORDER BY salary DESC)
+
+RANK() is similar but leaves gaps after ties.
+DENSE_RANK() never leaves gaps.
+
+LAG() returns value from previous row.
+LEAD() returns value from next row.
+Both are useful for comparing current row to previous/next row.
+
+PARTITION BY divides result set into groups.
+ORDER BY within OVER() defines row ordering inside the window.

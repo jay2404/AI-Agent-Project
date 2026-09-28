@@ -23,3 +23,5 @@ print(result)
 # Try different topics
 result2 = chain.invoke({"topic": "CTEs vs subqueries"})
 print(result2)
+
+
